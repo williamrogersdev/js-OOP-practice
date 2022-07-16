@@ -1,0 +1,21 @@
+Exercise 2
+
+Inside personStore object, create a property greet where the value is a function that logs "hello".
+
+Starting Code -
+
+
+const personStore = {
+  // add code here
+};
+
+personStore.greet(); // -> Logs 'hello'
+
+
+
+Solution 2
+const personStore = {
+  greet: function someName() {
+    console.log("hello");
+  },
+};
