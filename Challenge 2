@@ -19,3 +19,21 @@ const personStore = {
     console.log("hello");
   },
 };
+
+
+Other Solutions using ES6
+
+const personStore = {
+  greet: function () {
+    console.log("hello");
+  },
+};
+
+
+
+
+const personStore = {
+  greet() {
+    console.log("hello");
+  },
+};
