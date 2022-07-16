@@ -1,2 +1,27 @@
 Exercise 3
 Create a function personFromPersonStore that takes as input a name and an age. When called, the function will create person objects using the Object.create method on the personStore object.
+
+Starting Code -
+
+function personFromPersonStore(name, age) {
+  // add code here
+}
+
+const sandra = personFromPersonStore("Sandra", 26);
+console.log(sandra.name);
+// -> Logs 'Sandra'
+console.log(sandra.age);
+//-> Logs 26
+sandra.greet();
+//-> Logs 'hello'
+
+
+
+
+Solution 3
+function personFromPersonStore(name, age) {
+  const person = Object.create(personStore);
+  person.name = name;
+  person.age = age;
+  return person;
+}
