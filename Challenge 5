@@ -1,0 +1,2 @@
+Exercise 5
+Create a function PersonConstructor that uses the this keyword to save a single property onto its scope called greet. greet should be a function that logs the string 'hello'.
