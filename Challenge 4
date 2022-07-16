@@ -1,0 +1,13 @@
+Exercise 4
+Without editing the code you've already written, add an introduce method to the personStore object that logs "Hi, my name is [name]".
+
+// add code here
+sandra.introduce();
+// -> Logs 'Hi, my name is Sandra'
+
+
+
+Solution 4
+personStore.introduce = function () {
+  console.log(`Hi, my name is ${this.name}`);
+};
